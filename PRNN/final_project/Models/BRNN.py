@@ -19,7 +19,7 @@ class BRNN(nn.Module):
             nn.Linear(n_input, self.size_partitions) for n in range(n_part)
         ])
         self.recurrent = nn.ModuleList([
-            nn.Linear(n_hidden, self.size_partitions) for n in range(n_part)
+            nn.Linear(n_hidden, self.size_partitions,bias=False) for n in range(n_part)
         ])
         self.modulator = nn.ModuleList([
             nn.Linear(n_hidden,n_hidden,bias=False) for n in range(n_part)
