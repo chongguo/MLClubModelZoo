@@ -1,6 +1,6 @@
 # MLClubModelZoo
 
-Coding recent/classical ML models from scratch is the spirit of this repo. 
+Coding recent/classical ML models from scratch (within reason): 
 
 - ODEnet
 - mutual information neural estimator (MINE)
